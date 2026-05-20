@@ -6,7 +6,7 @@
 #include <math.h>
 #include <cblas.h>
 
-#define N 1024  // Размер матрицы (1024 для быстрой работы в Codespaces)
+#define N 2048  // Размер матрицы
 #define TOTAL_OPS (2.0 * N * N * N)
 
 void generate_random_matrix(double complex *matrix, int size) {
