@@ -1,0 +1,1 @@
+sudo apt update && sudo apt install gcc libopenblas-dev -y && gcc -O3 -march=native main.c -o matrix -lopenblas -lm && ./matrix
